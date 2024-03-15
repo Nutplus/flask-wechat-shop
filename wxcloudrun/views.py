@@ -2,8 +2,6 @@ from pydantic import BaseModel,parse_obj_as
 from datetime import datetime
 from flask import render_template, request, jsonify, send_from_directory
 from run import app
-from wxcloudrun.dao import delete_counterbyid, query_counterbyid, insert_counter, update_counterbyid
-from wxcloudrun.model import Counters
 from wxcloudrun.model import Service_order
 from wxcloudrun.model import op
 from wxcloudrun.model import user
