@@ -1,4 +1,4 @@
-from config import initial
+from wxcloudrun.dataconfig import initial
 
 # 使用格式化字符串构建HTML代码
 # html_code = '''
@@ -49,6 +49,7 @@ goods = [
                 {"img_id": 3, "url": url + "商品1/banner3.jpg"}
             ],
             "goods_title": "小A",
+            "Need_PAY": "NO", #是否需要支付
             "goods_introduce_image": url + "商品1/detail.png",  # 底部预留一部分白边 防止立即购买按钮遮挡
             "goods_introduce_text": '',  # 当为""不会显示任何内容
             "shopType": 'service',  # 商品类型 用于跳转页面以及是否可以购买 service服务页面 just_show只能用于展示不能购买 item作为一般货物购买(item未开发）

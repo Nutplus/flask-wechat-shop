@@ -1,4 +1,4 @@
-from config import initial
+from wxcloudrun.dataconfig import initial
 
 url_banner = initial.Server_ImageUrl + "/home/"
 url_categories = initial.Server_ImageUrl + "/categories/"
